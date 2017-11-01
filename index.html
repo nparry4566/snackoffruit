@@ -1,0 +1,201 @@
+﻿<!DOCTYPE html>
+
+<html lang="en">
+<head>
+  <style>
+
+
+
+  #myBtn {
+      display: none; /* Hidden by default */
+      position: fixed; /* Fixed/sticky position */
+      bottom: 20px; /* Place the button at the bottom of the page */
+      right: 30px; /* Place the button 30px from the right */
+      z-index: 99; /* Make sure it does not overlap */
+      border: none; /* Remove borders */
+      outline: none; /* Remove outline */
+      background-color: #c1d4f2; /* Set a background color */
+      color: #063c96; /* Text color */
+      cursor: pointer; /* Add a mouse pointer on hover */
+      padding: 15px; /* Some padding */
+      border-radius: 10px; /* Rounded corners */
+      align-content: center;
+      font-family: "Contrail One", cursive;
+  }
+
+  #myBtn:hover {
+      background-color: #649ffc; /* Add a dark-grey background on hover */
+  }
+
+  #container{
+    background-color: white;
+  }
+
+  .container {
+    position: relative;
+    width: 50%;
+  }
+
+  .image {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #a2bce8;
+  }
+
+  .container:hover .overlay {
+    opacity: 1;
+  }
+
+  .text {
+    color: #071021;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    font-family: "Contrail One" cursive;
+  }
+
+  </style>
+
+
+  <!-- metadata -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- page title -->
+  <title>Fruit Snacks</title>
+
+  <!-- styles -->
+  <link rel="stylesheet" href="css/odin-0.9.5.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/owl.carousel.min.css">
+  <link rel="stylesheet" href="css/owl.theme.default.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Contrail+One" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Kanit" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Medula+One" rel="stylesheet">
+
+</head>
+<header> Fruit Snacks </header>
+
+
+<body>
+
+  <!-- start making your grid here -->
+
+  <div class="owl-carousel">
+  <div class="item"><img src="img/beckham.jpg"></div>
+  <div class="item"><img src="img/1450772135511539746.jpg"></div>
+  <div class="item"><img src="img/gallery-1462568899-best-fruit-snacks.jpg"></div>
+  <div class="item"><img src="img/basketball.jpg"></div>
+  <div class="item"><img src="img/campus.jpg"></div>
+</div>
+
+      <div class="row">
+        <div class="col-sm-6">
+          <h2> The Snacks</h2>
+          <p>Fruit snacks are the best. They are one of my favorite snacks of all time. If you'd like, you can order some of your own right <a href="https://www.amazon.com/s/ref=nb_sb_ss_i_3_5?url=search-alias%3Daps&field-keywords=fruit+snacks&sprefix=fruit%2Caps%2C212&crid=2MNGKGANAQBAV"> here</a>. They are one of the most popular snacks in America. They are a gummy-like snack, and they are infused with fruity flavors like rasberry, orange, strawberry, and much much more! To be honest, no one knows how processed they are, but who cares. They are absolutely delicious as long as you don't get the super dusty ones.
+          </p>
+        </div>
+
+        <div class="col-sm-6">
+          <h2> History of Fruit Snacks </h2>
+          <img class="right" src="img/joray.png" alt="Student and Athlete of the Month" >
+          <p>It is believed that fruit snacks derived from the bits of dried fruit that are also a snack. The first form of the fruit snack was the Joray Fruit Rolls. Joray Fruit rolls were created by Louis Shalhoub in the 1970s. They were used by people who needed quick and healthy energy.
+              Now companies like Mott's, Welch's, and Annie's make the modern fruit snack. The modern fruit snack has become more processed, and is now only advertised as healthy. It is no longer as healthy as it used to be. General Mills created the term "fruit snack". The fruit snack businesses is a multimillion-dollar one. It's target audience is children, many of whom love the candy alternate. </p>
+        </div>
+
+
+          <h2> Different Types of Fruit Snacks </h2>
+          <div class="row">
+            <div class="col-sm-4">
+              <div class="container"><img src="img/f0c8f88affa71ac5104841120668e536.png"><div class="overlay">
+                <div class="text">Welch's</div>
+            </div></div></div>
+
+
+          <div class="col-sm-4">
+            <div class="container"><img src="img/08162460-c95d-4291-86ac-b6409287b067.png.750x750_q85ss0_progressive.png"><div class="overlay">
+              <div class="text">Mott's</div>
+          </div></div></div>
+
+
+        <div class="col-sm-4">
+          <div class="container"><img src="img/AnniesHomegrownOrganicBunnyFruitSnacksBerryPatch_4oz.png"><div class="overlay">
+            <div class="text">Annie's</div>
+        </div>
+    </div>
+  </div>
+</div>
+</div>
+    </section>
+</div>
+
+
+      <footer>
+      <p>
+
+        <br>| Nick Fruit Snacks|Copyright © 2017|</br>
+
+
+
+<button onclick="topFunction()" id="myBtn" title="Go to top">^ Back to Top ^</button>
+      </footer>
+
+
+  <!-- include any javascript below this line -->
+  <script src="https://code.jquery.com/jquery-2.2.4.js"></script>
+        <script src="js/odin-0.7.1.js"></script>
+
+      <script src="js/owl.carousel.min.js"></script>
+
+      <script>
+      $(document).ready(function() {
+        $('.owl-carousel').owlCarousel({
+            autoplay: true,
+            autoplayTimeout: 4000,
+            autoplayHoverPause: true,
+            items : 1,
+            loop : true,
+            margin : 10,
+            nav : false,
+            dots: true
+        })
+       })
+
+       window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("myBtn").style.display = "block";
+    } else {
+        document.getElementById("myBtn").style.display = "none";
+    }
+}
+
+function topFunction() {
+    document.body.scrollTop = 0; // For Chrome, Safari and Opera
+    document.documentElement.scrollTop = 0; // For IE and Firefox
+}
+      </script>
+
+
+
+</body>
+
+</html>
